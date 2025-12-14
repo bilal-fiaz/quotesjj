@@ -52,5 +52,28 @@
 .nav-links li a::after {
   content: "";
   position: absolute;
-  bottom: -6px
+  bottom: -6px;
+}
+
+.nav-links li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #00fff2, #ff00b3);
+  transition: all 0.3s ease;
+}
+.nav-links a:hover {
+  color: #00fff2;
 }

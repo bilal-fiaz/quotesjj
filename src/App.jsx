@@ -28,7 +28,9 @@ function App() {
           </div>
         ))}
       </div>
+      <div className='foota'>
        <Footer />
+       </div>
     </>
   )
 }
