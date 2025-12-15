@@ -94,13 +94,14 @@ body {
 @media (max-width: 750px) {
   .container {
     gap: 20px;
-    margin: 40px auto;
+   
   }
 
   .card {
     padding: 24px;
     width: 100%;
     flex-grow: 1;
+
   }
 
   .card p {
