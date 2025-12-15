@@ -21,7 +21,6 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  flex-grow: inherit;
   gap: 50px;
   position: relative;
 }
@@ -39,6 +38,7 @@ body {
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
   transform: translateY(0px);
   transition: all 0.4s ease;
+  flex-grow: 1;
 }
 
 .card::before {
@@ -100,6 +100,7 @@ body {
   .card {
     padding: 24px;
     width: 100%;
+    flex-grow: 1;
   }
 
   .card p {
