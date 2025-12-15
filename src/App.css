@@ -16,24 +16,16 @@ body {
 
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1550px;
   margin: 80px auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
+  flex-grow: inherit;
+  gap: 50px;
   position: relative;
 }
 
-.container::before {
-  content: "";
-  position: absolute;
-  inset: -200px;
-  background: radial-gradient(circle, rgba(0, 255, 204, 0.15), transparent 70%),
-              radial-gradient(circle at 80% 20%, rgba(255, 0, 128, 0.1), transparent 70%);
-  filter: blur(100px);
-  animation: aura 8s infinite alternate ease-in-out;
-}
 
 .card {
   width: 300px;
