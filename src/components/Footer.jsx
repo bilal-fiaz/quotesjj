@@ -11,10 +11,10 @@ function Footer() {
         </p>
 
         <div className="footer-links">
-          <a href="#">Home</a>
+          {/* <a href="#">Home</a> */}
           <a href="#">Quotes</a>
-          <a href="#">Authors</a>
-          <a href="#">About</a>
+          {/* <a href="#">Authors</a> */}
+          {/* <a href="#">About</a> */}
         </div>
 
         <div className="footer-socials">
